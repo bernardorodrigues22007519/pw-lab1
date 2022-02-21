@@ -13,22 +13,56 @@
 </head>
 <body>
     <h1>A Internet e a Web</h1>
-    <p>Na unidade curricular de <a href="https://moodle.ensinolusofona.pt/course/view.php?id=1596">Programação Web</a>
-        abordaremos os princípios básicos associados ao desenvolvimento para a Web, tanto do lado <i>back-end</i>
-            como <i>front-end</i>.</p>
-
-    <p>Aprender-se-ão as seguintes tecnologias &#127760;:</p>
     <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Python</li>
-        <li>Django</li>
-        <li>JavaScript</li>
+        <h3>Código Fonte</h3>
+            <p>
+                Seguindo as diretrizes do terceiro ponto do enunciado do laboratório 1,
+                utilizando a função do navegador "código-fonte", foi possivel aferir exatamente o que estava descrito
+                no enunciado. Isto é, o código-fonte realizado ficou visível para consulta.
+                Eis uma imagem da situação acima referida:
+                <img src="images/codigo-fonte-lab1.png">
+            </p>
+        <h3>DevTool e função inspect</h3>
+            <p>
+                Ao utilizar a função "rede" ou "network" das DevTools do Google Chrome temos uma panóplia de informações
+                ao nosso dispor.
+                Esta ferramenta é importante, pois permite:
+                <li>Perceber o estado do pedido</li>
+                <li>Perceber o tipo do ficheiro</li>
+                <li>Perceber o tamanho desse ficheiro</li>
+                <li>Quanto tempo demorou a ficar disponível (tempo de transferência)</li>
+                <li>Se o pedido de um determinado elemento teve origem num outro elemento</li>
+                <li>Hierarquia de publicação, que permite ter uma sequência cronológica dos pedidos efetuados e dos
+                ficheiros apresentados, via gráfico</li>
+                    <p>
+                        Desta forma, podemos trabalhar no nosso código e fazer um benchmark constante do trabalho
+                        realizado, visto que todos os pedidos estão visíveis através desta ferramenta.
+                    </p>
+                    <p>
+                        Ao clicar numa hiperligação os elementos descarregados são o código-fonte, quaisquer
+                        recursos utilizados nessa página, nomeadamente imagens (neste caso em particular),
+                        e extensões que servem de suporte ao ficheiro de código-fonte.
+                        Podemos observar isso através do inspect da primeira página criada neste laboratória, na
+                        seguinte imagem:
+                        <img src="images/inspect-lab1.png">
+
+                        Respondendo então às questões colocadas:
+                        <li>Foram descarregados 4 ficheiros</li>
+                        <li>Os tipos de ficheiro são document(código-fonte), png (imagens), e um script</li>
+                        <li>Os tempos são visíveis no printscreen, pelo que seria redundante repetir essa informação neste
+                        passo.</li>
+                    </p>
+                    <p>
+                        O Header mostra o tipo de pedido executado, o seu estado, o endereço, etc.
+                        O Preview mostra uma pré-visualização do ficheiro em questão, ou seja, o que nós vemos na
+                        página web em si.
+                        A janela do Timing permite dissecar o tempo gasto em cada fase do processo, desde que
+                        o pedido foi executado, até que foi recebido, o tempo que demorou na procura do DNS, etc
+                    </p>
+                    <p>
+                        Este foi o meu report da minha primeira página web.
+                    </p>
+            </p>
     </ul>
-
-    <p>De forma a consolidar todos os conhecimentos, será feito um laboratório semanal, de entrega obrigatória,
-        de aplicação da matéria lecionada. Irá ser desenvolvido também um projeto.</p>
-
-    <img src="images/wordcloud.png">
 </body>
 </html>
